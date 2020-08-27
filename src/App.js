@@ -1,11 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+import Header from './Components/Header/Header';
+import Course from './Components/Course/Course';
+
 
 function App() {
+  
   return (
-    <div className="container" >
-      <h1>Hello World</h1>
+    <div  >
+      <Header></Header>
+      <Course></Course>
     </div>
   );
 }
